@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Handtrack.js and Three.js Physics</title>
+    <link rel="stylesheet" href="https://unpkg.com/carbon-components@latest/css/carbon-components.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bx--body p20">
+    <!-- <img id="img" src="hand.jpg"/>  -->
+    <div class="loader" id="preload">
+        <button id="trackbutton" class="bx--btn bx--btn--secondary" type="button" disabled>
+            Begin
+        </button>
+    </div>
+    <!-- <div class="mb10">
+        <div id="updatenote" class="updatenote mt10"> loading model ..</div>
+    </div> -->
+    <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
+    <canvas id="canvas" class="videoCanvas"></canvas>
+    <canvas class="threeCanvas"></canvas>
+
+    <!-- <div class="mt10"> -->
+    <!-- <img src="images/1.jpg" class="canvasbox  hidden" id="handimage" alt=""> -->
+
+    <!-- </div> -->
+
+    <script src="https://unpkg.com/carbon-components@latest/scripts/carbon-components.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/handtrackjs@0.0.13/dist/handtrack.min.js"> </script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handtrackjs@latest/dist/handtrack.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script type='module' src="main.js"></script>
+    <!-- <script src="sketch.js"></script> -->
+</body>
+
+</html>

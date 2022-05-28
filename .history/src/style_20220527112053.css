@@ -1,0 +1,26 @@
+.threeCanvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.videoCanvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 320px;
+}
+
+.loader {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 5;
+}
+#trackbutton {
+	z-index: 3;
+}

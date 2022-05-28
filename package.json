@@ -1,0 +1,21 @@
+{
+  "name": "hw01_art_with_ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "handtrackjs": "^0.1.5",
+    "p5": "^1.4.1",
+    "p5-create-capture": "^1.1.9",
+    "regenerator-runtime": "^0.13.9",
+    "three": "^0.140.2"
+  }
+}
